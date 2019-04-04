@@ -281,6 +281,7 @@ GameObject:
   - component: {fileID: 260300114}
   - component: {fileID: 260300113}
   - component: {fileID: 260300115}
+  - component: {fileID: 260300116}
   m_Layer: 0
   m_Name: BedroomDoor (1)
   m_TagString: Untagged
@@ -376,6 +377,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3, y: 3}
   m_EdgeRadius: 0
+--- !u!114 &260300116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260300112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3dc908d0bf80864cbdc2291e9fcd8b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &398952380
 GameObject:
   m_ObjectHideFlags: 0
@@ -1013,12 +1026,12 @@ PrefabInstance:
     - target: {fileID: 1902928757195415657, guid: a61448456de600a4e95ba8beadfd736e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.66
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 1902928757195415657, guid: a61448456de600a4e95ba8beadfd736e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.44
+      value: 4.49
       objectReference: {fileID: 0}
     - target: {fileID: 1902928757195415657, guid: a61448456de600a4e95ba8beadfd736e,
         type: 3}

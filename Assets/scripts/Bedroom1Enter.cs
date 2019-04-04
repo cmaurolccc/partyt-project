@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class BedroomDoor : MonoBehaviour
+public class Bedroom1Enter : MonoBehaviour
 {
     // Start is called before the first frame update
     private void OnMouseDown()
     {
-        SceneManager.LoadScene("Hallwayp1");
+        SceneManager.LoadScene("Bedroom");
     }
 }
