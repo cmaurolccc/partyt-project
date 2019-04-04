@@ -991,7 +991,7 @@ GameObject:
   - component: {fileID: 1875128039}
   - component: {fileID: 1875128041}
   m_Layer: 0
-  m_Name: 3d-arrow
+  m_Name: Shed to Outside
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
