@@ -112,6 +112,75 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &544637268
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1643920804993439559, guid: bbaf71f35f5d74f48841b1d7e6cdd4b1,
+        type: 3}
+      propertyPath: m_Name
+      value: GameController
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643920804993439557, guid: bbaf71f35f5d74f48841b1d7e6cdd4b1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.26598495
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643920804993439557, guid: bbaf71f35f5d74f48841b1d7e6cdd4b1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.1301045
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643920804993439557, guid: bbaf71f35f5d74f48841b1d7e6cdd4b1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0922447
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643920804993439557, guid: bbaf71f35f5d74f48841b1d7e6cdd4b1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643920804993439557, guid: bbaf71f35f5d74f48841b1d7e6cdd4b1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643920804993439557, guid: bbaf71f35f5d74f48841b1d7e6cdd4b1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643920804993439557, guid: bbaf71f35f5d74f48841b1d7e6cdd4b1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643920804993439557, guid: bbaf71f35f5d74f48841b1d7e6cdd4b1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643920804993439557, guid: bbaf71f35f5d74f48841b1d7e6cdd4b1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643920804993439557, guid: bbaf71f35f5d74f48841b1d7e6cdd4b1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1643920804993439557, guid: bbaf71f35f5d74f48841b1d7e6cdd4b1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bbaf71f35f5d74f48841b1d7e6cdd4b1, type: 3}
 --- !u!1 &650281224
 GameObject:
   m_ObjectHideFlags: 0
@@ -253,7 +322,7 @@ SpriteRenderer:
   m_Size: {x: 13.76, y: 8.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &856047016
@@ -332,7 +401,7 @@ SpriteRenderer:
   m_Size: {x: 3.6, y: 2.4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &869762867
@@ -562,7 +631,7 @@ SpriteRenderer:
   m_Size: {x: 20, y: 10}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1458994779
@@ -641,7 +710,7 @@ SpriteRenderer:
   m_Size: {x: 2.89, y: 3}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1538502586
@@ -720,7 +789,7 @@ SpriteRenderer:
   m_Size: {x: 4.24, y: 7.36}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1619820716
@@ -799,7 +868,7 @@ SpriteRenderer:
   m_Size: {x: 2.2, y: 2.2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1662295336
@@ -878,7 +947,7 @@ SpriteRenderer:
   m_Size: {x: 1.5, y: 1.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1671907327
@@ -1036,7 +1105,7 @@ SpriteRenderer:
   m_Size: {x: 2.2, y: 2.2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1815698983
@@ -1115,7 +1184,7 @@ SpriteRenderer:
   m_Size: {x: 27.539999, y: 27.539999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &2104761978
