@@ -765,8 +765,8 @@ GameObject:
   - component: {fileID: 1511236971}
   - component: {fileID: 1511236970}
   m_Layer: 0
-  m_Name: POSTER[1]_500
-  m_TagString: Untagged
+  m_Name: poster
+  m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
