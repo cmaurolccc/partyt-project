@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 222920850}
   m_Layer: 0
   m_Name: LivingroomFlowerPot
-  m_TagString: Untagged
+  m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -271,8 +271,8 @@ GameObject:
   - component: {fileID: 555300369}
   - component: {fileID: 555300368}
   m_Layer: 0
-  m_Name: LivingRoomKitchen
-  m_TagString: Untagged
+  m_Name: LivingRoomTable
+  m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -351,7 +351,7 @@ GameObject:
   - component: {fileID: 854101500}
   m_Layer: 0
   m_Name: Kitchen Couch
-  m_TagString: Untagged
+  m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -430,7 +430,7 @@ GameObject:
   - component: {fileID: 1021923748}
   m_Layer: 0
   m_Name: LivingRoomBoardedupwindow
-  m_TagString: Untagged
+  m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -710,7 +710,7 @@ GameObject:
   - component: {fileID: 1433043648}
   m_Layer: 0
   m_Name: KitchenGun 2
-  m_TagString: Untagged
+  m_TagString: I
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -789,7 +789,7 @@ GameObject:
   - component: {fileID: 1679138956}
   m_Layer: 0
   m_Name: LivingRoomCurtains 1
-  m_TagString: Untagged
+  m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -868,7 +868,7 @@ GameObject:
   - component: {fileID: 1803500467}
   m_Layer: 0
   m_Name: LivingRoomPainting
-  m_TagString: Untagged
+  m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -947,7 +947,7 @@ GameObject:
   - component: {fileID: 1937099648}
   m_Layer: 0
   m_Name: LivingRoomRapier
-  m_TagString: Untagged
+  m_TagString: I
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1026,7 +1026,7 @@ GameObject:
   - component: {fileID: 1993116508}
   m_Layer: 0
   m_Name: LivingRoomAnimalStatue
-  m_TagString: Untagged
+  m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
