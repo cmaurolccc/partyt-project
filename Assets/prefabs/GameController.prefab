@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1643920804993439559
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1643920804993439557}
+  - component: {fileID: 1643920804993439556}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1643920804993439557
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643920804993439559}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.26598495, y: 2.1301045, z: -0.0922447}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1643920804993439556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643920804993439559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5364e4b056ff8eb47a5575e7bd4c6aef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameOver: 0
+  Row: 0
+  Col: 0
+  InventoryList: []
+  roomInfo:
+  - 'You awaken and find yourself on the ground in a place you have never seen before.
+    The light is dim but you can make out 2 doors. One is in front of you and one
+    is behind you. The walls of the room are red. To try to get your bearings, you
+    pull out your trusty compass from your pocket. You see that you are facing north.
+    You need to find out where you are in hopes of finding your way home.  What will
+    you do? '
+  - This room is green.
+  - This room is yellow.
+  - This room is grey.
+  - This room is too dark and you cannot see the color of the room. You feel around
+    hoping to find a way out.
+  - This room is blue.
+  - This room is orange.
+  - This room is black.
+  - This room is fuschia.
+  - This room is lavender. There is a panel that you cannot seem to open. Perhaps
+    a wrench would help.
