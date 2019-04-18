@@ -20,9 +20,9 @@ public class NewRoom : MonoBehaviour
     public int puzzlesSolved;                 //the number of solved puzzles toward the win condition
     public int myLocation;                      //the room I am in
     public string theCurrentScene;         //the name of the room I am in
-    public string needs;                         //this is what is needded in the room
-    public int pos = 0;                           //this is the position of the items in the list
-    public string[] items = new string[3];  // this stores the names of the items for a given room's puzzle
+  //  public string needs;                         //this is what is needded in the room
+   // public int pos = 0;                           //this is the position of the items in the list
+  //  public string[] items = new string[3];  // this stores the names of the items for a given room's puzzle
 
 
     private void Awake()
@@ -30,19 +30,22 @@ public class NewRoom : MonoBehaviour
         theGameController = GameObject.Find("GameController");
         theControllerScript = theGameController.GetComponent<GameControlScript>();
 
+        //get rid of the items we have already collected
         DisableCollectedItems();
-
+        //setup the HUD to reflect what is currently in inventory
         InventoryHUD();
 
         theCurrentScene = SceneManager.GetActiveScene().name;
         string theRoomNumber = theCurrentScene.Substring(5);
         myLocation = int.Parse(theRoomNumber);
-        //how many items do i need for this room?
+        //how many items do I need for this room?
         totItemsNeeded = theControllerScript.roomNeedsArray[myLocation - 1].Length;
 
         totalItemsFound = 0;
+
         if (totItemsNeeded != 0)
         {
+            //figure out if we have the number of items we need by adding to totalItemsFound
             foreach (string item in theControllerScript.roomNeedsArray[myLocation - 1])
             {
                 //does the inventory list have what we need?
@@ -51,74 +54,28 @@ public class NewRoom : MonoBehaviour
                 {
                     totalItemsFound += 1;
                 }
-
-                if (totalItemsFound == totItemsNeeded)
+            }
+             if (totalItemsFound == totItemsNeeded)
                 {
                     //we have all we need to solve the puzzle in this room
-                    int result = theControllerScript.InventoryList.IndexOf(item);
-                    if (result != -1)
-                    {
-                        Debug.Log("Found " + item + " at " + result);
-                        theControllerScript.InventoryList.Remove(item);
-                        InventoryHUD();
-                    }
+                    foreach (string item in theControllerScript.roomNeedsArray[myLocation-1])
+                        {
+                            int result = theControllerScript.InventoryList.IndexOf(item);
+                            if (result != -1)
+                            {
+                                Debug.Log("Found " + item + " at " + result);
+                                theControllerScript.InventoryList.Remove(item);
+                                //we add the item to the list of items used to solve puzzles so it will not reappear
+                                theControllerScript.InventoryUsed.Add(item);
+                                InventoryHUD();
+                            }
+                        }
                 }
             }
-
-        if (theControllerScript.InventoryList.Count != 0)
-        {
-            //we have loaded inventory in the list and need to show it
-            for (int i = 0; i < theControllerScript.InventoryList.Count; i++)
-            {
-                theInventoryItem = "Inventory";
-                theItemName = theControllerScript.InventoryList[i];
-                adjustNum = i + 1;
-                numToString = adjustNum.ToString();
-                theInventoryItem += numToString;
-                invGameObj = GameObject.Find("Canvas/Vertical Panel/" + theInventoryItem);
-                if (invGameObj == null)
-                {
-                    Debug.Log("null reference");
-                }
-                newItem = invGameObj.GetComponent<Text>();
-                newItem.text = theItemName;
-            } //end of for loop
-        }  //end of it statement
-        theCurrentScene = SceneManager.GetActiveScene().name;
-        string theRoomNumber = theCurrentScene.Substring(5);
-        myLocation = int.Parse(theRoomNumber);
-        Debug.Log("in new room = " + myLocation);
-        //this tells me how many items I need for this room
-        totItemsNeeded = theControllerScript.roomNeedsArray[myLocation - 1].Length;
-        totalItemsFound = 0;   //set the total items found to 0 to start before looking for them
-        Debug.Log("the total items needed = " + totItemsNeeded);
-
-        for (int i = 1; i <= totItemsNeeded; i++)
-        {
-            for (int col = 0; col < theControllerScript.roomNeedsArray[myLocation - 1].Length; col++)
-            {
-                // is there an item needed in this room?
-                if (theControllerScript.roomNeedsArray[myLocation - 1][col] != "")
-                {
-                    needs = theControllerScript.roomNeedsArray[myLocation - 1][col];
-                    pos = theControllerScript.InventoryList.IndexOf(needs);
-                    if (pos != -1) //found it
-                    {
-                        items[totalItemsFound] = needs;
-                        totalItemsFound += 1;
-
-                    } //end of inner if
-                } //end of if
-                if (totalItemsFound - 1 == totItemsNeeded)
-                {
-                    Debug.Log("All items needed in this room are found");
-                }
-            } //end of for
-        }
-    }
+        }     
     public void DisableCollectedItems()
     {
-        //disable items that have been collected
+        // disable all the items in this room that have been collected
         foreach (string invItem in theControllerScript.InventoryList)
         {
             GameObject anObject = GameObject.Find(invItem);
@@ -127,13 +84,24 @@ public class NewRoom : MonoBehaviour
                 Destroy(anObject);
             }
         }
+
+        //disable all the items in this room that have been used to solve puzzles
+        foreach(string usedItem in theControllerScript.InventoryUsed)
+        {
+            GameObject aUsedGameObject = GameObject.Find(usedItem);
+            if (aUsedGameObject != null)
+            {
+                Destroy(aUsedGameObject);
+            }
+        }
     }
+
     public void InventoryHUD()
     {
         if (theControllerScript.InventoryList.Count != 0)
         {
             //clear the HUD first
-            for (int k = 1; k< 11; k++)
+            for (int k = 1; k< 11; k ++)
             {
                 string invName = "Inventory" + k.ToString();
                 invGameObj = GameObject.Find("Canvas/Vertical Panel/" + invName);
@@ -141,7 +109,7 @@ public class NewRoom : MonoBehaviour
                 newItem.text = "";
             }
             //now show the collected inventory in the list that remains
-            for (int i = 0; i < theControllerScript.InventoryList.Count; i++)
+            for ( int i = 0; i < theControllerScript.InventoryList.Count; i++)
             {
                 theInventoryItem = "Inventory";
                 theItemName = theControllerScript.InventoryList[i];
@@ -149,7 +117,7 @@ public class NewRoom : MonoBehaviour
                 numToString = adjustNum.ToString();
                 theInventoryItem += numToString;
                 invGameObj = GameObject.Find("Canvas/Vertical Panel/" + theInventoryItem);
-                if(invGameObj == null)
+                if (invGameObj == null)
                 {
                     Debug.Log("null reference");
                 }
