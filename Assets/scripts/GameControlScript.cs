@@ -15,6 +15,8 @@ public class GameControlScript : MonoBehaviour
     public int Col;
     public List<String> InventoryList = new List<String>();
 
+    public List<String> InventoryUsed = new List<String>();
+
     public string[][] roomNeedsArray = new string[][]
     {
         new string[1] {"key" },
