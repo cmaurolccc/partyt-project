@@ -15,15 +15,17 @@ public class GameControlScript : MonoBehaviour
     public int Col;
     public List<String> InventoryList = new List<String>();
 
+    public List<String> InventoryUsed = new List<String>();
+
     public string[][] roomNeedsArray = new string[][]
     {
-        new string[1] {"key" },
+        new string[3] {"NoteBedroom", "BedroomKey", "BedroomPlushToy" },
         new string[1] {""},
         new string[1] {""},
         new string[1] {""},
         new string[2] {"candle", "match stick" },
         new string[1] {""},
-        new string[1] {""},
+        new string[3] {"LivingRoomRapier", "LivingRoomGun", "LivingRoomAnimalStatue"},
         new string[1] {""},
         new string[3] {"blue gem","green gem","red gem" },
         new string[1] {"wrench" }
@@ -32,7 +34,7 @@ public class GameControlScript : MonoBehaviour
     // this is the 2D array of the room map
     public int[,] roomGridArray =
        {
-            {0,0,2,0 }, //room 1 bedroom
+            {0,0,0,2 }, //room 1 bedroom
             {3,9,1,8 }, //room 2 hallwayp1
             {7,2,4,5 }, //room 3 hallwayp2
             {0,0,3,0 }, //room 4 kitchen
@@ -46,16 +48,16 @@ public class GameControlScript : MonoBehaviour
     //this is the info presented to the player as they navigate rooms
     public string[] roomInfo =
             {
-                "You awaken and find yourself on the ground in a place you have never seen before. The light is dim but you can make out 2 doors. One is in front of you and one is behind you. The walls of the room are red. To try to get your bearings, you pull out your trusty compass from your pocket. You see that you are facing north. You need to find out where you are in hopes of finding your way home.  What will you do? ",
-                "This room is green.",
-                "This room is yellow.",
-                "This room is grey.",
-                "This room is too dark and you cannot see the color of the room. You feel around hoping to find a way out.",
-                "This room is blue.",
-                "This room is orange.",
-                "This room is black.",
-                "This room is fuschia.",
-                "This room is lavender. There is a panel that you cannot seem to open. Perhaps a wrench would help."
+                "What the heck man, I came to this place for some food and booze but now I'm in some stingy, grimy house that I never even knew existed.  How the heck am I supposed to get out, gideon you suck. ",
+                "Yo, this looks like a hallway bro, is this thing some kind of puzzle game, real creative chris. ",
+                "Oh dang a continuation of the hallway really original bros, Zack you especially suck at this. ",
+                "Finaly somewhere I care about where's the food IM STARVING, THANK YOU chris. ",
+                "yo zack great touch, time to go down to my impending doom, real cliche.",
+                "while I'm here I may as well take a dump in this scuzzy house, this room sucks josh like you. ",
+                "yo bros, this would be an amazing place for D&D, yo gideon get on that NOW hook me up man. ",
+                "well at least you didn't copy paste the other bedroom angle congratulations, your creativity extends past the other 4 party members. ",
+                "yo you guys thanks for letting me out of this terrible house maybe you arn't so bad after all. ",
+                "Oh good a shed full of memes, a millenials lifetime dream, also great job Zack and Josh on the shed I aprove your memes, IGN 10/10. "
             };
        void Awake()
     {
