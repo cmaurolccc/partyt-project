@@ -34,7 +34,7 @@ public class GameControlScript : MonoBehaviour
     // this is the 2D array of the room map
     public int[,] roomGridArray =
        {
-            {0,0,2,0 }, //room 1 bedroom
+            {0,0,0,2 }, //room 1 bedroom
             {3,9,1,8 }, //room 2 hallwayp1
             {7,2,4,5 }, //room 3 hallwayp2
             {0,0,3,0 }, //room 4 kitchen
