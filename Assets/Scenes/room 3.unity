@@ -123,7 +123,6 @@ GameObject:
   - component: {fileID: 121980097}
   - component: {fileID: 121980096}
   - component: {fileID: 121980099}
-  - component: {fileID: 121980098}
   m_Layer: 0
   m_Name: K Door
   m_TagString: Untagged
@@ -193,18 +192,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &121980098
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 121980095}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04c7a42dd8fed9641886e450b9ff8620, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &121980099
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -479,7 +466,6 @@ GameObject:
   - component: {fileID: 767560300}
   - component: {fileID: 767560299}
   - component: {fileID: 767560301}
-  - component: {fileID: 767560302}
   m_Layer: 0
   m_Name: L door
   m_TagString: Untagged
@@ -575,18 +561,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.25, y: 2.25}
   m_EdgeRadius: 0
---- !u!114 &767560302
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 767560298}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 496893c798d13d34585c21db788df548, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &873820560
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1060,7 +1034,6 @@ GameObject:
   - component: {fileID: 1950460084}
   - component: {fileID: 1950460083}
   - component: {fileID: 1950460085}
-  - component: {fileID: 1950460086}
   m_Layer: 0
   m_Name: Basement Stairs
   m_TagString: Untagged
@@ -1156,18 +1129,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 10.66, y: 16}
   m_EdgeRadius: 0
---- !u!114 &1950460086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1950460082}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c430e845acfc29346a4b12aa12d1b7fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2049458313
 GameObject:
   m_ObjectHideFlags: 0

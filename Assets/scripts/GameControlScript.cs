@@ -15,15 +15,17 @@ public class GameControlScript : MonoBehaviour
     public int Col;
     public List<String> InventoryList = new List<String>();
 
+    public List<String> InventoryUsed = new List<String>();
+
     public string[][] roomNeedsArray = new string[][]
     {
-        new string[1] {"key" },
+        new string[3] {"NoteBedroom", "BedroomKey", "BedroomPlushToy" },
         new string[1] {""},
         new string[1] {""},
         new string[1] {""},
         new string[2] {"candle", "match stick" },
         new string[1] {""},
-        new string[1] {""},
+        new string[3] {"LivingRoomRapier", "LivingRoomGun", "LivingRoomAnimalStatue"},
         new string[1] {""},
         new string[3] {"blue gem","green gem","red gem" },
         new string[1] {"wrench" }
@@ -32,7 +34,7 @@ public class GameControlScript : MonoBehaviour
     // this is the 2D array of the room map
     public int[,] roomGridArray =
        {
-            {0,0,2,0 }, //room 1 bedroom
+            {0,0,0,2 }, //room 1 bedroom
             {3,9,1,8 }, //room 2 hallwayp1
             {7,2,4,5 }, //room 3 hallwayp2
             {0,0,3,0 }, //room 4 kitchen
