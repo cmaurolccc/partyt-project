@@ -123,7 +123,6 @@ GameObject:
   - component: {fileID: 129492483}
   - component: {fileID: 129492482}
   - component: {fileID: 129492484}
-  - component: {fileID: 129492485}
   m_Layer: 0
   m_Name: bedroom2door
   m_TagString: Untagged
@@ -219,18 +218,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 10, y: 10}
   m_EdgeRadius: 0
---- !u!114 &129492485
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 129492481}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbb2fbe8cb2160842b759d31bde196eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &293498610
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,7 +308,6 @@ GameObject:
   - component: {fileID: 409146413}
   - component: {fileID: 409146412}
   - component: {fileID: 409146414}
-  - component: {fileID: 409146415}
   m_Layer: 0
   m_Name: backward-to-outside
   m_TagString: Untagged
@@ -417,18 +403,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 1.46}
   m_EdgeRadius: 0
---- !u!114 &409146415
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 409146411}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b78af22e77b71f42a5569e28faf72e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &894616808
 GameObject:
   m_ObjectHideFlags: 0
@@ -844,7 +818,6 @@ GameObject:
   - component: {fileID: 1541877523}
   - component: {fileID: 1541877522}
   - component: {fileID: 1541877524}
-  - component: {fileID: 1541877525}
   m_Layer: 0
   m_Name: bedroom1door
   m_TagString: Untagged
@@ -940,18 +913,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 10, y: 10}
   m_EdgeRadius: 0
---- !u!114 &1541877525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1541877521}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f23e1fe1db9d60949b2f3f449373dc31, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1681114556
 GameObject:
   m_ObjectHideFlags: 0
@@ -1042,7 +1003,6 @@ GameObject:
   - component: {fileID: 1745302368}
   - component: {fileID: 1745302367}
   - component: {fileID: 1745302369}
-  - component: {fileID: 1745302370}
   m_Layer: 0
   m_Name: hallwayp1-forward
   m_TagString: Untagged
@@ -1138,18 +1098,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 1.46}
   m_EdgeRadius: 0
---- !u!114 &1745302370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1745302366}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b52768b5555b87141b78ee8de676ee85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1959486212
 GameObject:
   m_ObjectHideFlags: 0

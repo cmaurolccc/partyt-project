@@ -122,7 +122,6 @@ GameObject:
   m_Component:
   - component: {fileID: 257103768}
   - component: {fileID: 257103767}
-  - component: {fileID: 257103766}
   m_Layer: 0
   m_Name: Basement to Bathroom
   m_TagString: I
@@ -130,18 +129,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &257103766
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 257103765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4535da77ca182e44e9ebd2ca8686d6f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &257103767
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1071,7 +1058,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1222118777
 GameObject:
@@ -1234,7 +1221,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1453114390}
   - component: {fileID: 1453114389}
-  - component: {fileID: 1453114388}
   m_Layer: 0
   m_Name: Basement to Hallway P2
   m_TagString: I
@@ -1242,18 +1228,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1453114388
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1453114387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77d4e629fb9e3604e9950dff7a9befbd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1453114389
 SpriteRenderer:
   m_ObjectHideFlags: 0
