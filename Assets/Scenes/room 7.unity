@@ -419,7 +419,7 @@ GameObject:
   - component: {fileID: 854101501}
   - component: {fileID: 854101500}
   m_Layer: 0
-  m_Name: Kitchen Couch
+  m_Name: LivingRoomCouch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
