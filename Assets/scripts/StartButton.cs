@@ -8,7 +8,7 @@ public class StartButton : MonoBehaviour
     // Start is called before the first frame update
     private void OnMouseDown()
     {
-        SceneManager.LoadScene("Bedroom");
+        SceneManager.LoadScene("room 1");
     }
 
     // Update is called once per frame
