@@ -98,8 +98,8 @@ public class NewRoom : MonoBehaviour
 
     public void InventoryHUD()
     {
-        if (theControllerScript.InventoryList.Count != 0)
-        {
+       // if (theControllerScript.InventoryList.Count != 0)
+       // {
             //clear the HUD first
             for (int k = 1; k< 11; k ++)
             {
@@ -124,6 +124,6 @@ public class NewRoom : MonoBehaviour
                 newItem = invGameObj.GetComponent<Text>();
                 newItem.text = theItemName;
             }
-        }
+       // }
     }
 }
