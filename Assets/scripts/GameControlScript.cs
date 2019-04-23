@@ -19,7 +19,7 @@ public class GameControlScript : MonoBehaviour
 
     public string[][] roomNeedsArray = new string[][]
     {
-        new string[3] {"NoteBedroom", "BedroomKey", "BedroomPlushToy" },
+        new string[4] {"NoteBedroom", "BedroomKey", "BedroomPlushToy" , "BedroomKeyForShed" },
         new string[1] {""},
         new string[1] {""},
         new string[1] {""},
