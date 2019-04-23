@@ -1217,7 +1217,7 @@ GameObject:
   - component: {fileID: 2003064312}
   - component: {fileID: 2003064311}
   m_Layer: 0
-  m_Name: Photo of a Person
+  m_Name: Photo of a Person stand-in Asset
   m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
