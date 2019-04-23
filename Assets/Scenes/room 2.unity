@@ -325,7 +325,7 @@ GameObject:
   - component: {fileID: 409146414}
   - component: {fileID: 409146415}
   m_Layer: 0
-  m_Name: backward-to-outside
+  m_Name: South
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -850,7 +850,7 @@ GameObject:
   - component: {fileID: 1541877524}
   - component: {fileID: 1541877525}
   m_Layer: 0
-  m_Name: bedroom1door
+  m_Name: East
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1050,7 +1050,7 @@ GameObject:
   - component: {fileID: 1745302369}
   - component: {fileID: 1745302370}
   m_Layer: 0
-  m_Name: hallwayp1-forward
+  m_Name: North
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
