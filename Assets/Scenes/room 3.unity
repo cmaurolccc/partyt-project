@@ -191,7 +191,7 @@ Transform:
   m_LocalScale: {x: 4.7334514, y: 4.7334514, z: 4.7334514}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &121980098
 MonoBehaviour:
@@ -310,7 +310,7 @@ Transform:
   m_LocalScale: {x: 0.172515, y: 0.172515, z: 0.172515}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &415484292
 GameObject:
@@ -389,7 +389,7 @@ Transform:
   m_LocalScale: {x: 0.46, y: 0.46, z: 0.46}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &565259779
 GameObject:
@@ -468,7 +468,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &767560298
 GameObject:
@@ -549,7 +549,7 @@ Transform:
   m_LocalScale: {x: 3.3302276, y: 4.292131, z: 2.42905}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &767560301
 BoxCollider2D:
@@ -819,7 +819,7 @@ Transform:
   m_LocalScale: {x: 0.166, y: 0.166, z: 0.166}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1124175367
 GameObject:
@@ -898,7 +898,7 @@ Transform:
   m_LocalScale: {x: 0.4459591, y: 0.34163508, z: 0.45021}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1446307217
 GameObject:
@@ -1019,7 +1019,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180.63199}
 --- !u!1 &1657131135
 GameObject:
@@ -1098,7 +1098,7 @@ Transform:
   m_LocalScale: {x: 0.609, y: 0.609, z: 0.609}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1768148969
 PrefabInstance:
@@ -1372,5 +1372,5 @@ Transform:
   m_LocalScale: {x: 1.684892, y: 2.050389, z: 1.639}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
