@@ -185,7 +185,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 54799323}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.15, y: -3.04, z: 0}
+  m_LocalPosition: {x: 6.99, y: -3.04, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -264,7 +264,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 123798753}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.78, y: -4.49, z: 0}
+  m_LocalPosition: {x: 5.31, y: -4.49, z: 0}
   m_LocalScale: {x: 0.316, y: 0.316, z: 0.316}
   m_Children: []
   m_Father: {fileID: 0}
@@ -481,7 +481,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 672218985}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.34, y: -4.19, z: 0}
+  m_LocalPosition: {x: -3.39, y: -4.19, z: 0}
   m_LocalScale: {x: 0.174216, y: 0.174216, z: 0.174216}
   m_Children: []
   m_Father: {fileID: 0}
@@ -560,7 +560,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 697840325}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.85, y: 3.55, z: 0}
+  m_LocalPosition: {x: -7.23, y: 2.35, z: 0}
   m_LocalScale: {x: 0.289, y: 0.289, z: 0.289}
   m_Children: []
   m_Father: {fileID: 0}
@@ -639,7 +639,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 742516537}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.21, y: -0.89, z: 0}
+  m_LocalPosition: {x: 5.72, y: -0.89, z: 0}
   m_LocalScale: {x: 0.169418, y: 0.169418, z: 0.169418}
   m_Children: []
   m_Father: {fileID: 0}
@@ -656,8 +656,9 @@ GameObject:
   - component: {fileID: 1293471089}
   - component: {fileID: 1293471088}
   - component: {fileID: 1293471091}
+  - component: {fileID: 1293471090}
   m_Layer: 0
-  m_Name: 2012-08-06-another-stupid-door-joke
+  m_Name: North
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -725,6 +726,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1293471090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293471087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f36d5785e5e46e49a22b04416abb563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextRoom: 0
+  inWhichScene: 
 --- !u!61 &1293471091
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -824,7 +839,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1408775817}
   m_LocalRotation: {x: -0, y: -0, z: 0.6691954, w: 0.74308646}
-  m_LocalPosition: {x: 10.71, y: 2.64, z: 0}
+  m_LocalPosition: {x: 8.22, y: 2.71, z: 0}
   m_LocalScale: {x: 0.11342171, y: 0.125888, z: 0.281}
   m_Children: []
   m_Father: {fileID: 0}
@@ -903,7 +918,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1693843033}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.11, y: 1.2, z: 0}
+  m_LocalPosition: {x: 6.77, y: 1.2, z: 0}
   m_LocalScale: {x: 0.33, y: 0.33, z: 0.33}
   m_Children: []
   m_Father: {fileID: 0}
@@ -982,7 +997,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1825507183}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.72, y: -3.15, z: 0}
+  m_LocalPosition: {x: -6.34, y: -3.15, z: 0}
   m_LocalScale: {x: 0.524911, y: 0.524911, z: 0.524911}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1061,7 +1076,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1873619520}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.74, y: 3.85, z: 0}
+  m_LocalPosition: {x: 6.71, y: 3.85, z: 0}
   m_LocalScale: {x: 1.619598, y: 0.367256, z: 0.232}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1222,7 +1237,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2063247823}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.44, y: -1.36, z: 0}
+  m_LocalPosition: {x: 7.27, y: -1.3, z: 0}
   m_LocalScale: {x: 0.222, y: 0.222, z: 0.222}
   m_Children: []
   m_Father: {fileID: 0}
