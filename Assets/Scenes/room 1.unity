@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 2450602}
   m_Layer: 0
   m_Name: BedroomPlushToy
-  m_TagString: Untagged
+  m_TagString: I
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -271,8 +271,8 @@ GameObject:
   - component: {fileID: 154212058}
   - component: {fileID: 154212057}
   m_Layer: 0
-  m_Name: KEYSHEDKEYBEDROOM
-  m_TagString: Untagged
+  m_Name: BedroomKeyForShed
+  m_TagString: I
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -472,7 +472,7 @@ GameObject:
   - component: {fileID: 398952381}
   m_Layer: 0
   m_Name: BedRoomLamp
-  m_TagString: Untagged
+  m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -551,7 +551,7 @@ GameObject:
   - component: {fileID: 659328666}
   m_Layer: 0
   m_Name: NoteBedroom
-  m_TagString: Untagged
+  m_TagString: I
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -696,7 +696,7 @@ GameObject:
   - component: {fileID: 795977041}
   m_Layer: 0
   m_Name: BedroomKey
-  m_TagString: Untagged
+  m_TagString: I
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -775,7 +775,7 @@ GameObject:
   - component: {fileID: 864984196}
   m_Layer: 0
   m_Name: BedroomNightstand
-  m_TagString: Untagged
+  m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -854,7 +854,7 @@ GameObject:
   - component: {fileID: 1523558139}
   m_Layer: 0
   m_Name: BedroomPoster
-  m_TagString: Untagged
+  m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1015,7 +1015,7 @@ GameObject:
   - component: {fileID: 2102362914}
   m_Layer: 0
   m_Name: BedRoomBed (1)
-  m_TagString: Untagged
+  m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
