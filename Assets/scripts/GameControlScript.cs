@@ -48,18 +48,33 @@ public class GameControlScript : MonoBehaviour
     //this is the info presented to the player as they navigate rooms
     public string[] roomInfo =
             {
-                "What the heck man, I came to this place for some food and booze but now I'm in some stingy, grimy house that I never even knew existed.  How the heck am I supposed to get out, gideon you suck. ",
+                "What the heck man, I came to this place to have some fun at a party but now I'm in some stingy, grimy house that I never even knew existed.  How the heck am I supposed to get out, gideon you suck. ",
                 "Yo, this looks like a hallway bro, is this thing some kind of puzzle game, real creative chris. ",
                 "Oh dang a continuation of the hallway really original bros, Zack you especially suck at this. ",
                 "Finaly somewhere I care about where's the food IM STARVING, THANK YOU chris. ",
-                "yo zack great touch, time to go down to my impending doom, real cliche.",
-                "while I'm here I may as well take a dump in this scuzzy house, this room sucks josh like you. ",
-                "yo bros, this would be an amazing place for D&D, yo gideon get on that NOW hook me up man. ",
-                "well at least you didn't copy paste the other bedroom angle congratulations, your creativity extends past the other 4 party members. ",
-                "yo you guys thanks for letting me out of this terrible house maybe you arn't so bad after all. ",
+                "Yo zack great touch, time to go down to my impending doom, real cliche.",
+                "While I'm here I may as well take a dump in this scuzzy house, this room sucks zack like you. ",
+                "Yo bro, this would be an amazing place for D&D, yo gideon get on that NOW hook me up man. ",
+                "Well at least you didn't copy paste the other bedroom angle congratulations, your creativity extends past the other 4 party members. ",
+                "Yo you guys thanks for letting me out of this terrible house maybe you arn't so bad after all. ",
                 "Oh good a shed full of memes, a millenials lifetime dream, also great job Zack and Josh on the shed I aprove your memes, IGN 10/10. "
             };
-       void Awake()
+    public string[] roomInfo2 =
+           {
+                "Wait this room was the room I woke up in. Why did I come back here, help me out player quit making me go in circles, its annoying. ",
+                "back in the stupid hallway again I WANT OUT OF THIS HOUSE NOW. ",
+                "PLAYER YOU SUCK QUIT MAKING ME GO IN CIRCLES ",
+                "while im back here again I may as well make the most of it I'm making a sandwich. ",
+                "Yo do I really gotta come down here again its real creepy.",
+                "Why do you insist I go to the bathroom I DONT HAVE TO GO ANYMORE. ",
+                "Still waiting for my D&D group gideon. ",
+                "Yo this bed looks very comfy maybe this is all just dream, if so, I may need mental help when I wake up. ",
+                "Why am I back in the yard shouldn't I be running away from this place as fast as I possibly can. ",
+                "Ok player I realize your millennial brain perceives this as the best place in the world but I WANT TO GO NOW. "
+            };
+    public bool[] visitedBefore =
+        {false, false, false, false, false, false, false, false, false, false};
+    void Awake()
     {
         //if the instance reference has not beem set yet
         if (instance == null)
