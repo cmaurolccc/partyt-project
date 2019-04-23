@@ -1263,8 +1263,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1453114390}
   - component: {fileID: 1453114389}
-  - component: {fileID: 1453114391}
   - component: {fileID: 1453114388}
+  - component: {fileID: 1453114391}
   m_Layer: 0
   m_Name: West
   m_TagString: I

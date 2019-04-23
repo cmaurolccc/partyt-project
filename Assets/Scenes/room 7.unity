@@ -577,6 +577,7 @@ GameObject:
   - component: {fileID: 1079850128}
   - component: {fileID: 1079850127}
   - component: {fileID: 1079850129}
+  - component: {fileID: 1079850130}
   m_Layer: 0
   m_Name: South
   m_TagString: Untagged
@@ -672,6 +673,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.94, y: 2.59}
   m_EdgeRadius: 0
+--- !u!114 &1079850130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079850126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f36d5785e5e46e49a22b04416abb563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextRoom: 0
+  inWhichScene: 
 --- !u!1 &1283696015
 GameObject:
   m_ObjectHideFlags: 0

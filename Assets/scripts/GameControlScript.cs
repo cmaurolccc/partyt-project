@@ -36,9 +36,9 @@ public class GameControlScript : MonoBehaviour
        {
             {0,0,0,2 }, //room 1 bedroom
             {3,9,1,8 }, //room 2 hallwayp1
-            {7,2,4,5 }, //room 3 hallwayp2
+            {7,2,5,4 }, //room 3 hallwayp2
             {0,0,3,0 }, //room 4 kitchen
-            {0,6,3,0 }, //room 5 basement
+            {0,6,0,3 }, //room 5 basement
             {5,0,0,0 }, //room 6 bathroom
             {0,3,0,0 }, //room 7 living room
             {0,0,0,2 }, //room 8 bedroom2
