@@ -747,7 +747,7 @@ GameObject:
   - component: {fileID: 1383900412}
   - component: {fileID: 1383900411}
   m_Layer: 0
-  m_Name: 3d-arrow 1 (1)
+  m_Name: South
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1187,7 +1187,7 @@ GameObject:
   - component: {fileID: 1836858739}
   - component: {fileID: 1836858738}
   m_Layer: 0
-  m_Name: 3d-arrow 1
+  m_Name: North
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

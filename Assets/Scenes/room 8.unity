@@ -194,7 +194,7 @@ GameObject:
   - component: {fileID: 650281227}
   - component: {fileID: 650281228}
   m_Layer: 0
-  m_Name: 3d-arrow 1
+  m_Name: West
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
