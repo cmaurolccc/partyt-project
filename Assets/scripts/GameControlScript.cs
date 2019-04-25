@@ -21,10 +21,10 @@ public class GameControlScript : MonoBehaviour
     {
         new string[4] {"BR1Note", "BR1Key", "BR1Toy" , "BR1Key2" },
         new string[1] {""},
-        new string[1] {""},
+        new string[2] {"red key", "creepy painting"},
         new string[2] {"cookie dough", "kitchen key"},
         new string[2] {"candle", "match stick" },
-        new string[1] {""},
+        new string[1] {"knife"},
         new string[3] {"LRRapier", "LRGun", "LivingRoomAnimalStatue"},
         new string[1] {""},
         new string[3] {"blue gem","green gem","red gem" },
