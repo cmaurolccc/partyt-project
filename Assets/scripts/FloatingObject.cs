@@ -2,6 +2,7 @@
 using System;
 using System.Collections;
 
+// Angel Martinez, written on 4/23/2019, causes an object to float up and down, attatched to lamp
 public class FloatingObject : MonoBehaviour
 {
     float originalY;

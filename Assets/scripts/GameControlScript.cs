@@ -59,6 +59,8 @@ public class GameControlScript : MonoBehaviour
                 "Yo you guys thanks for letting me out of this terrible house maybe you arn't so bad after all. ",
                 "Oh good a shed full of memes, a millenials lifetime dream, also great job Zack and Josh on the shed I aprove your memes, IGN 10/10. "
             };
+
+     //Zachary Zehner's crative addition 
     public string[] roomInfo2 =
            {
                 "Wait this room was the room I woke up in. Why did I come back here, help me out player quit making me go in circles, its annoying. ",
@@ -74,6 +76,7 @@ public class GameControlScript : MonoBehaviour
             };
     public bool[] visitedBefore =
         {false, false, false, false, false, false, false, false, false, false};
+    //end of Zachary Zehner's creative addition the next part is in the ShowTextInInventory script
     void Awake()
     {
         //if the instance reference has not beem set yet

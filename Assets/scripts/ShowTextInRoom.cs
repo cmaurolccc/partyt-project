@@ -32,7 +32,7 @@ public class showTextInRoom : MonoBehaviour
         {
             myText.color = Color.black;
         }
-
+        //2nd part to Zachary Zehner's creative addition
         myText.text = controllerScript.roomInfo[theSceneNum];
 
         if (controllerScript.visitedBefore[theSceneNum])
@@ -42,6 +42,7 @@ public class showTextInRoom : MonoBehaviour
         }
         else
         { controllerScript.visitedBefore[theSceneNum] = true; }
+        //end of the 2nd part to Zachary Zehner's creative addition
     }
 
 }
