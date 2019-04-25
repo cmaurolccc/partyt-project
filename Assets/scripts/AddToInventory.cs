@@ -32,7 +32,7 @@ public class AddToInventory : MonoBehaviour
 
                 numToString = addedItem.ToString();
                 theInventoryItem += numToString;
-                invGameObject = GameObject.Find("Canvas/Vertical Panel/" + theInventoryItem);
+                invGameObject = GameObject.Find("Canvas/Panel/" + theInventoryItem);
                 newItem = invGameObject.GetComponent<Text>();
                 newItem.text = name;
             }
