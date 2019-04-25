@@ -22,7 +22,7 @@ public class GameControlScript : MonoBehaviour
         new string[4] {"NoteBedroom", "BedroomKey", "BedroomPlushToy" , "BedroomKeyForShed" },
         new string[1] {""},
         new string[1] {""},
-        new string[1] {""},
+        new string[2] {"cookie dough", "kitchen key"},
         new string[2] {"candle", "match stick" },
         new string[1] {""},
         new string[3] {"LivingRoomRapier", "LivingRoomGun", "LivingRoomAnimalStatue"},
