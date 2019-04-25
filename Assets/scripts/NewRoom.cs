@@ -105,7 +105,7 @@ public class NewRoom : MonoBehaviour
             for (int k = 1; k< 11; k ++)
             {
                 string invName = "Inventory" + k.ToString();
-                invGameObj = GameObject.Find("Canvas/Vertical Panel/" + invName);
+                invGameObj = GameObject.Find("Canvas/Panel/" + invName);
                 newItem = invGameObj.GetComponent<Text>();
                 newItem.text = "";
             }
@@ -117,7 +117,7 @@ public class NewRoom : MonoBehaviour
                 adjustNum = i + 1;
                 numToString = adjustNum.ToString();
                 theInventoryItem += numToString;
-                invGameObj = GameObject.Find("Canvas/Vertical Panel/" + theInventoryItem);
+                invGameObj = GameObject.Find("Canvas/Panel/" + theInventoryItem);
                 if (invGameObj == null)
                 {
                     Debug.Log("null reference");
