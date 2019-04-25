@@ -782,7 +782,7 @@ GameObject:
   - component: {fileID: 1433043651}
   - component: {fileID: 1433043650}
   m_Layer: 0
-  m_Name: LivingRoomGun
+  m_Name: LRGun
   m_TagString: I
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1287,7 +1287,7 @@ GameObject:
   - component: {fileID: 1937099651}
   - component: {fileID: 1937099650}
   m_Layer: 0
-  m_Name: LivingRoomRapier
+  m_Name: LRRapier
   m_TagString: I
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
