@@ -248,7 +248,7 @@ GameObject:
   - component: {fileID: 258440075}
   - component: {fileID: 258440076}
   m_Layer: 0
-  m_Name: spider asset stand-in
+  m_Name: spider
   m_TagString: I
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -631,7 +631,7 @@ GameObject:
   - component: {fileID: 289386299}
   - component: {fileID: 289386300}
   m_Layer: 0
-  m_Name: Key-Shaped Cookie Cutter stand-in Asset
+  m_Name: Key-Shaped Cookie Cutter
   m_TagString: I
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -836,7 +836,7 @@ GameObject:
   - component: {fileID: 385577487}
   - component: {fileID: 385577486}
   m_Layer: 0
-  m_Name: Circuit Breaker Box stand-in Asset
+  m_Name: Circuit Breaker Box
   m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -915,7 +915,7 @@ GameObject:
   - component: {fileID: 403899037}
   - component: {fileID: 403899036}
   m_Layer: 0
-  m_Name: Dusty Table stand-in Asset
+  m_Name: Dusty Table
   m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -994,7 +994,7 @@ GameObject:
   - component: {fileID: 471616017}
   - component: {fileID: 471616016}
   m_Layer: 0
-  m_Name: Torch stand-in Asset
+  m_Name: Torch
   m_TagString: I
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1073,7 +1073,7 @@ GameObject:
   - component: {fileID: 579205575}
   - component: {fileID: 579205574}
   m_Layer: 0
-  m_Name: Old Game Console stand-in Asset
+  m_Name: Old Game Console
   m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1232,7 +1232,7 @@ GameObject:
   - component: {fileID: 727958905}
   - component: {fileID: 727958907}
   m_Layer: 0
-  m_Name: Safe stand-in Asset
+  m_Name: Safe
   m_TagString: I
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1337,7 +1337,7 @@ GameObject:
   - component: {fileID: 796574063}
   - component: {fileID: 796574062}
   m_Layer: 0
-  m_Name: Broken TV stand-in Asset
+  m_Name: Broken TV
   m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1767,7 +1767,7 @@ GameObject:
   - component: {fileID: 1516683324}
   - component: {fileID: 1516683323}
   m_Layer: 0
-  m_Name: Hole in the Wall stand-in Asset
+  m_Name: Hole in the Wall
   m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
