@@ -70,7 +70,8 @@ public class NewRoom : MonoBehaviour
                                 InventoryHUD();
                             }
                         }
-                }
+                    InventoryHUD();
+            }
             }
         }     
     public void DisableCollectedItems()

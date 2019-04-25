@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 194818034}
   - component: {fileID: 194818033}
   m_Layer: 0
-  m_Name: Spider Web stand-in asset
+  m_Name: Spider Web
   m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -202,7 +202,7 @@ GameObject:
   - component: {fileID: 206667281}
   - component: {fileID: 206667280}
   m_Layer: 0
-  m_Name: Plank stand-in Asset
+  m_Name: Plank
   m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -281,7 +281,7 @@ GameObject:
   - component: {fileID: 218038787}
   - component: {fileID: 218038786}
   m_Layer: 0
-  m_Name: Screwdriver stand-in Asset
+  m_Name: Screwdriver
   m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -439,7 +439,7 @@ GameObject:
   - component: {fileID: 371453794}
   - component: {fileID: 371453793}
   m_Layer: 0
-  m_Name: Clamp stand-in Asset
+  m_Name: Clamp
   m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -679,7 +679,7 @@ GameObject:
   - component: {fileID: 728483815}
   - component: {fileID: 728483814}
   m_Layer: 0
-  m_Name: Sledgehammer Stand-in Asset
+  m_Name: Sledgehammer
   m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -758,7 +758,7 @@ GameObject:
   - component: {fileID: 840451922}
   - component: {fileID: 840451921}
   m_Layer: 0
-  m_Name: Chainsaw stand-in Asset
+  m_Name: Chainsaw
   m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -837,7 +837,7 @@ GameObject:
   - component: {fileID: 901836804}
   - component: {fileID: 901836803}
   m_Layer: 0
-  m_Name: Workbench stand-in Asset
+  m_Name: Workbench
   m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1399,7 +1399,7 @@ GameObject:
   - component: {fileID: 1950144612}
   - component: {fileID: 1950144611}
   m_Layer: 0
-  m_Name: Small Hammer stand-in asset
+  m_Name: Small Hammer
   m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1478,7 +1478,7 @@ GameObject:
   - component: {fileID: 2003064312}
   - component: {fileID: 2003064311}
   m_Layer: 0
-  m_Name: Photo of a Person stand-in Asset
+  m_Name: Photo of a Person
   m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
