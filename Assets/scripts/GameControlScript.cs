@@ -19,7 +19,7 @@ public class GameControlScript : MonoBehaviour
 
     public string[][] roomNeedsArray = new string[][]
     {
-        new string[4] {"BR1Note", "BR1Key", "BR1Toy" , "BR1Key2" },
+        new string[4] {"BR1Note", "BR1Key", "BR1Toy" , "LRRapier" },
         new string[1] {""},
         new string[2] {"red key", "creepy painting"},
         new string[2] {"cookie dough", "kitchen key"},
@@ -27,8 +27,8 @@ public class GameControlScript : MonoBehaviour
         new string[1] {"knife"},
         new string[3] {"LRRapier", "LRGun", "LivingRoomAnimalStatue"},
         new string[1] {""},
-        new string[3] {"blue gem","green gem","red gem" },
-        new string[1] {"wrench" }
+        new string[1] {"BR1Key2" },
+        new string[1] {"" }
     };
 
     // this is the 2D array of the room map
@@ -42,7 +42,7 @@ public class GameControlScript : MonoBehaviour
             {5,0,0,0 }, //room 6 bathroom
             {0,3,0,0 }, //room 7 living room
             {0,0,0,2 }, //room 8 bedroom2
-            {2,10,0,0 }, //room 9 outside
+            {2,0,0,0 }, //room 9 outside
             {9,0,0,0 } //room 10 shed
         };
     //this is the info presented to the player as they navigate rooms

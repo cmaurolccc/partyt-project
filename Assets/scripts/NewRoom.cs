@@ -53,6 +53,7 @@ public class NewRoom : MonoBehaviour
                 if (haveIt)
                 {
                     totalItemsFound += 1;
+                  
                 }
             }
              if (totalItemsFound == totItemsNeeded)
@@ -62,6 +63,9 @@ public class NewRoom : MonoBehaviour
                         {
                             int result = theControllerScript.InventoryList.IndexOf(item);
                             if (result != -1)
+                    {
+                        theControllerScript.roomGridArray[8, 1] = 10;
+                    }
                             {
                                 Debug.Log("Found " + item + " at " + result);
                                 theControllerScript.InventoryList.Remove(item);
