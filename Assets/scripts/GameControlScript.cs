@@ -19,8 +19,8 @@ public class GameControlScript : MonoBehaviour
 
     public string[][] roomNeedsArray = new string[][]
     {
-        new string[4] {"BR1Note", "BR1Key", "BR1Toy" , "LRRapier" },
-        new string[1] {""},
+        new string[3] {"BR1Note",  "BR1Toy" , "LRRapier" },
+        new string[1] {"BR1Key"},
         new string[2] {"red key", "creepy painting"},
         new string[2] {"cookie dough", "kitchen key"},
         new string[2] {"candle", "match stick" },
@@ -32,7 +32,7 @@ public class GameControlScript : MonoBehaviour
         new string[1] {""}
     };
 
-    // this is the 2D array of the room map
+    // this is the 2D array of the room map. Set default positions to be locked. Then in new room script to change to unlocked add to the if thingy around line 59
     public int[,] roomGridArray =
        {
             {0,0,0,2 }, //room 1 bedroom
