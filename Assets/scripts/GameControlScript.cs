@@ -29,13 +29,14 @@ public class GameControlScript : MonoBehaviour
         new string[1] {"bathroomkey"},
         new string[1] {"BR1Key2" },
         new string[1] {"cookie dough" },
+        new string[1] {""},
         new string[1] {""}
     };
 
     // this is the 2D array of the room map. Set default positions to be locked. Then in new room script to change to unlocked add to the if thingy around line 59
     public int[,] roomGridArray =
        {
-            {0,0,0,2 }, //room 1 bedroom
+            {0,12,0,2 }, //room 1 bedroom
             {3,0,1,8 }, //room 2 hallwayp1
             {7,2,5,4 }, //room 3 hallwayp2
             {0,0,3,0 }, //room 4 kitchen
@@ -45,7 +46,8 @@ public class GameControlScript : MonoBehaviour
             {0,0,0,2 }, //room 8 bedroom2
             {2,0,0,0 }, //room 9 outside
             {9,0,0,0 }, //room 10 shed
-            {0,0,0,0 } // room 11 WIN SCREEN BABY LETS GOOO WE WON WE WON WE WON WE ARE THE CHAMPIONS MY FRIENDS DUN DUN DUN DUN WE KEPT ON FIGHTING TILL THE END!
+            {0,0,0,0 }, // room 11 WIN SCREEN BABY LETS GOOO WE WON WE WON WE WON WE ARE THE CHAMPIONS MY FRIENDS DUN DUN DUN DUN WE KEPT ON FIGHTING TILL THE END!
+            {1,0,0,0 } // room 12 this is my note. I made it into a room. 
         };
     //this is the info presented to the player as they navigate rooms
     public string[] roomInfo =
