@@ -11,6 +11,7 @@ public class wallcrack : MonoBehaviour
     public Sprite wallcrack3;
     public Sprite wallcrack4;
     private SpriteRenderer spriteRenderer;
+    public bool wallCracked = false;
 
     // Start is called before the first frame update
     void Start()
@@ -39,6 +40,7 @@ public class wallcrack : MonoBehaviour
         else if (spriteRenderer.sprite == wallcrack3)
         {
             spriteRenderer.sprite = wallcrack4;
+            wallCracked = true;
         }
     }
 }
