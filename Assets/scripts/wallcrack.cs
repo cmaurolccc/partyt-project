@@ -6,10 +6,10 @@ using UnityEngine;
 
 public class wallcrack : MonoBehaviour
 {
-    public Sprite wallcrack1; // Drag your first sprite here
-    public Sprite wallcrack2; // Drag your second sprite here
-    public Sprite wallcrack3; // Drag your first sprite here
-    public Sprite wallcrack4; // Drag your second sprite here
+    public Sprite wallcrack1;
+    public Sprite wallcrack2;
+    public Sprite wallcrack3;
+    public Sprite wallcrack4;
     private SpriteRenderer spriteRenderer;
 
     // Start is called before the first frame update
@@ -19,14 +19,10 @@ public class wallcrack : MonoBehaviour
         spriteRenderer.sprite = wallcrack1;
     }
 
-    // Update is called once per frame
-    void Update()
+    //Changes sprite when clicked
+    private void OnMouseDown()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
-        {
-            ChangeSprite(); //changes Sprite
-        }
-
+        ChangeSprite();
     }
 
     void ChangeSprite()
