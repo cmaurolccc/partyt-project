@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class wallcrack : MonoBehaviour
 {
+    public GameObject wallCrack;
     public Sprite wallcrack1;
     public Sprite wallcrack2;
     public Sprite wallcrack3;

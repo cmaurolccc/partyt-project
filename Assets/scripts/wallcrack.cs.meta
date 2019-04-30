@@ -3,7 +3,13 @@ guid: c1736036c55b72d46996824b4ea5b5b1
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - wallCrack: {instanceID: 0}
+  - wallcrack1: {fileID: 21300000, guid: ea8a9e050ca722740b7217dbc71f1f17, type: 3}
+  - wallcrack2: {fileID: 21300000, guid: a86cfe1e0ff908e4aadc508beefec864, type: 3}
+  - wallcrack3: {fileID: 21300000, guid: b9ad3fe735168eb4e8bb8eeab4784559, type: 3}
+  - wallcrack4: {fileID: 21300000, guid: a3c5b7dcca1aa87439ec546126c8e3ce, type: 3}
+  - spriteRenderer: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

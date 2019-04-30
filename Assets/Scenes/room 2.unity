@@ -415,6 +415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1736036c55b72d46996824b4ea5b5b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wallCrack: {fileID: 1063814897}
   wallcrack1: {fileID: 21300000, guid: ea8a9e050ca722740b7217dbc71f1f17, type: 3}
   wallcrack2: {fileID: 21300000, guid: a86cfe1e0ff908e4aadc508beefec864, type: 3}
   wallcrack3: {fileID: 21300000, guid: b9ad3fe735168eb4e8bb8eeab4784559, type: 3}
@@ -1229,12 +1230,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1736036c55b72d46996824b4ea5b5b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wallCrack: {fileID: 0}
   wallcrack1: {fileID: 21300000, guid: ea8a9e050ca722740b7217dbc71f1f17, type: 3}
   wallcrack2: {fileID: 21300000, guid: a86cfe1e0ff908e4aadc508beefec864, type: 3}
   wallcrack3: {fileID: 21300000, guid: b9ad3fe735168eb4e8bb8eeab4784559, type: 3}
   wallcrack4: {fileID: 21300000, guid: a3c5b7dcca1aa87439ec546126c8e3ce, type: 3}
   spriteRenderer: {fileID: 0}
-  wallCracked: 1
+  wallCracked: 0
 --- !u!1 &1788844588
 GameObject:
   m_ObjectHideFlags: 0
