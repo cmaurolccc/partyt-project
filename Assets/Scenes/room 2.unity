@@ -157,7 +157,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1.06}
+  m_Offset: {x: 0.89, y: -1.06}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -168,7 +168,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 10, y: 20}
+  m_Size: {x: 6.26, y: 20}
   m_EdgeRadius: 0
 --- !u!114 &129492485
 MonoBehaviour:
@@ -419,6 +419,7 @@ MonoBehaviour:
   wallcrack2: {fileID: 21300000, guid: a86cfe1e0ff908e4aadc508beefec864, type: 3}
   wallcrack3: {fileID: 21300000, guid: b9ad3fe735168eb4e8bb8eeab4784559, type: 3}
   wallcrack4: {fileID: 21300000, guid: a3c5b7dcca1aa87439ec546126c8e3ce, type: 3}
+  spriteRenderer: {fileID: 0}
   wallCracked: 0
 --- !u!61 &1063814899
 BoxCollider2D:
@@ -846,7 +847,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1.36}
+  m_Offset: {x: -1.32, y: -1.36}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -857,7 +858,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 10, y: 20}
+  m_Size: {x: 6.89, y: 20}
   m_EdgeRadius: 0
 --- !u!114 &1541877525
 MonoBehaviour:
@@ -1084,7 +1085,9 @@ GameObject:
   - component: {fileID: 1776868735}
   - component: {fileID: 1776868734}
   - component: {fileID: 1776868737}
+  - component: {fileID: 1776868739}
   - component: {fileID: 1776868736}
+  - component: {fileID: 1776868738}
   m_Layer: 8
   m_Name: kitchen-key
   m_TagString: I
@@ -1193,6 +1196,45 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.76, y: 0.88}
   m_EdgeRadius: 0
+--- !u!114 &1776868738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776868733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 591b7a84f6fa1c548802675b1e6b7058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theGameController: {fileID: 0}
+  theControllerScript: {fileID: 0}
+  myText: {fileID: 0}
+  newItem: {fileID: 0}
+  myGameObject: {fileID: 0}
+  invGameObject: {fileID: 0}
+  theInventoryItem: Inventory
+  numToString: 
+  addedItem: 0
+--- !u!114 &1776868739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776868733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1736036c55b72d46996824b4ea5b5b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wallcrack1: {fileID: 21300000, guid: ea8a9e050ca722740b7217dbc71f1f17, type: 3}
+  wallcrack2: {fileID: 21300000, guid: a86cfe1e0ff908e4aadc508beefec864, type: 3}
+  wallcrack3: {fileID: 21300000, guid: b9ad3fe735168eb4e8bb8eeab4784559, type: 3}
+  wallcrack4: {fileID: 21300000, guid: a3c5b7dcca1aa87439ec546126c8e3ce, type: 3}
+  spriteRenderer: {fileID: 0}
+  wallCracked: 1
 --- !u!1 &1788844588
 GameObject:
   m_ObjectHideFlags: 0

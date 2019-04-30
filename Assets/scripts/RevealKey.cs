@@ -19,13 +19,11 @@ public class RevealKey : MonoBehaviour
     {
         if (wallDestroyed.wallCracked == true)
         {
-            kitchenKey.GetComponent<Renderer>().enabled = true;
-            kitchenKey.GetComponent<Collider>().enabled = true;
+            kitchenKey.SetActive(true);
         }
         else
         {
-            kitchenKey.GetComponent<Renderer>().enabled = false;
-            kitchenKey.GetComponent<Collider>().enabled = false;
+            kitchenKey.SetActive(false);
         }
     }
 }
