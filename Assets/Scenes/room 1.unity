@@ -935,10 +935,10 @@ GameObject:
   m_Component:
   - component: {fileID: 659328667}
   - component: {fileID: 659328666}
-  - component: {fileID: 659328669}
   - component: {fileID: 659328668}
+  - component: {fileID: 659328669}
   m_Layer: 0
-  m_Name: BR1Note
+  m_Name: South
   m_TagString: I
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1041,18 +1041,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 659328665}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 591b7a84f6fa1c548802675b1e6b7058, type: 3}
+  m_Script: {fileID: 11500000, guid: 6f36d5785e5e46e49a22b04416abb563, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  theGameController: {fileID: 0}
-  theControllerScript: {fileID: 0}
-  myText: {fileID: 0}
-  newItem: {fileID: 0}
-  myGameObject: {fileID: 0}
-  invGameObject: {fileID: 0}
-  theInventoryItem: Inventory
-  numToString: 
-  addedItem: 0
+  nextRoom: 0
+  inWhichScene: 
 --- !u!1 &786270577
 GameObject:
   m_ObjectHideFlags: 0
