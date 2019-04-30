@@ -204,7 +204,7 @@ GameObject:
   - component: {fileID: 206667283}
   - component: {fileID: 206667282}
   m_Layer: 0
-  m_Name: South
+  m_Name: Plank
   m_TagString: E
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
