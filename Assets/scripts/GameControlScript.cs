@@ -26,7 +26,7 @@ public class GameControlScript : MonoBehaviour
         new string[2] {"candle", "match stick" },
         new string[1] {"knife"},
         new string[3] {"LRRapier", "LRGun", "LivingRoomAnimalStatue"},
-        new string[1] {""},
+        new string[1] {"bathroomkey"},
         new string[1] {"BR1Key2" },
         new string[1] {"cookie dough" },
         new string[1] {""}
