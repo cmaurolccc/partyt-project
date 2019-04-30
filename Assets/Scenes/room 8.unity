@@ -1307,9 +1307,11 @@ GameObject:
   m_Component:
   - component: {fileID: 2104761978}
   - component: {fileID: 2104761977}
+  - component: {fileID: 2104761980}
+  - component: {fileID: 2104761979}
   m_Layer: 0
   m_Name: bathroomkey
-  m_TagString: Untagged
+  m_TagString: I
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1370,12 +1372,59 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2104761976}
   m_LocalRotation: {x: -0, y: -0, z: 0.70368266, w: 0.7105145}
-  m_LocalPosition: {x: 7.223, y: 1.629, z: 0}
+  m_LocalPosition: {x: 7.12, y: 1.62, z: 0}
   m_LocalScale: {x: -0.030459825, y: -0.030459825, z: -0.030459825}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 89.44601}
+--- !u!114 &2104761979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104761976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 591b7a84f6fa1c548802675b1e6b7058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theGameController: {fileID: 0}
+  theControllerScript: {fileID: 0}
+  myText: {fileID: 0}
+  newItem: {fileID: 0}
+  myGameObject: {fileID: 0}
+  invGameObject: {fileID: 0}
+  theInventoryItem: Inventory
+  numToString: 
+  addedItem: 0
+--- !u!61 &2104761980
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104761976}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 27.539999, y: 27.539999}
+    newSize: {x: 27.539999, y: 27.539999}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 27.539999, y: 27.539999}
+  m_EdgeRadius: 0
 --- !u!1001 &2145534848
 PrefabInstance:
   m_ObjectHideFlags: 0
