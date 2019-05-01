@@ -12,14 +12,13 @@ public class wallcrack : MonoBehaviour
     public Sprite wallcrack3;
     public Sprite wallcrack4;
     public SpriteRenderer spriteRenderer;
-    public bool wallCracked;
+    public bool wallCracked = false;
 
     // Start is called before the first frame update
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = wallcrack1;
-        wallCracked = false;
     }
 
     //Changes sprite when clicked

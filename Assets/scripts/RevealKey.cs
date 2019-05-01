@@ -8,22 +8,20 @@ public class RevealKey : MonoBehaviour
 {
     public GameObject kitchenKey;
     //calls wallcrack.cs
-    private wallcrack wallDestroyed;
+    public wallcrack wc;
     void Start()
     {
-        wallDestroyed = GetComponent<wallcrack>();
+        GameObject wck = GameObject.Find("wallcrack");
+        wc = wck.GetComponent<wallcrack>();
+        kitchenKey.SetActive(false);
     }
 
-    //reveals key when wall is completely cracked (image is set to wallcrack4)
+    //reveals key when wall is completely cracked
     void Update()
     {
-        if (wallDestroyed.wallCracked == true)
+        if (wc.wallCracked == true)
         {
             kitchenKey.SetActive(true);
-        }
-        else
-        {
-            kitchenKey.SetActive(false);
         }
     }
 }
