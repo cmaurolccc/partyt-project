@@ -7,19 +7,9 @@ using UnityEngine;
 public class RevealKey : MonoBehaviour
 {
     public GameObject kitchenKey;
-    //calls wallcrack.cs
-    public wallcrack wc;
-    public GameObject wck;
     void Start()
     {
-        wck = GameObject.Find("wallcrack");
-        wc = wck.GetComponent<wallcrack>();
-        Debug.Log(wc);
+        //deactivates key on Start, so it disappears until wallcrack.cs reactivates it.
         kitchenKey.SetActive(false);
-    }
-
-    //reveals key when wall is completely cracked
-    void Update()
-    {
     }
 }
