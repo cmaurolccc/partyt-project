@@ -15,7 +15,7 @@ public class GameControlScript : MonoBehaviour
     public int Col;
     public List<String> InventoryList = new List<String>();
 
-    public List<String> InventoryUsed = new List<String>();
+    public List<String> InventoryUsed = new List<String>();// the inventory used code we did in class to destroy objects.
 
     public string[][] roomNeedsArray = new string[][]
     {
@@ -34,7 +34,7 @@ public class GameControlScript : MonoBehaviour
     };
 
     // this is the 2D array of the room map. Set default positions to be locked. Then in new room script to change to unlocked add to the if thingy around line 59
-    public int[,] roomGridArray =// added three rooms for extra rooms
+    public int[,] roomGridArray =// added three rooms . If you are going to lock something make sure the 0's go here and change to unlocked in new room.
        {
             {0,12,0,2 }, //room 1 bedroom
             {3,0,1,8 }, //room 2 hallwayp1

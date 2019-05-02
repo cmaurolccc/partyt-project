@@ -192,6 +192,7 @@ GameObject:
   - component: {fileID: 16886770}
   - component: {fileID: 16886769}
   - component: {fileID: 16886768}
+  - component: {fileID: 16886771}
   m_Layer: 0
   m_Name: LRRGun
   m_TagString: I
@@ -287,6 +288,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &16886771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16886767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 591b7a84f6fa1c548802675b1e6b7058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theGameController: {fileID: 0}
+  theControllerScript: {fileID: 0}
+  myText: {fileID: 0}
+  newItem: {fileID: 0}
+  myGameObject: {fileID: 0}
+  invGameObject: {fileID: 0}
+  theInventoryItem: Inventory
+  numToString: 
+  addedItem: 0
 --- !u!1 &318831268
 GameObject:
   m_ObjectHideFlags: 0
@@ -994,6 +1016,7 @@ GameObject:
   - component: {fileID: 1144721075}
   - component: {fileID: 1144721074}
   - component: {fileID: 1144721073}
+  - component: {fileID: 1144721076}
   m_Layer: 0
   m_Name: LRRRapier
   m_TagString: I
@@ -1089,6 +1112,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1144721076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144721072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 591b7a84f6fa1c548802675b1e6b7058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theGameController: {fileID: 0}
+  theControllerScript: {fileID: 0}
+  myText: {fileID: 0}
+  newItem: {fileID: 0}
+  myGameObject: {fileID: 0}
+  invGameObject: {fileID: 0}
+  theInventoryItem: Inventory
+  numToString: 
+  addedItem: 0
 --- !u!1 &1283696015
 GameObject:
   m_ObjectHideFlags: 0
