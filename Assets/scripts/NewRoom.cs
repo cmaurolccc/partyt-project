@@ -62,8 +62,9 @@ public class NewRoom : MonoBehaviour
                     foreach (string item in theControllerScript.roomNeedsArray[myLocation-1])
                         {
                             int result = theControllerScript.InventoryList.IndexOf(item);
-                            if (result != -1)// Eac of these controller script changes make a room go from locked to unlocked in the game control script. Remember we are working with arrays if you make 
+                            if (result != -1)// Each of these controller script changes make a room go from locked to unlocked in the game control script. Remember we are working with arrays if you make 
                         //changes. Also it goes N S E W in the array from left to right. Also make sure in the Room Needs Array to make sure that the item is listed in the room in needs to unlock a door.
+                        //For each additional room to lock just add at the end dudes- gideon.
                                 {
                                     theControllerScript.roomGridArray[1, 1] = 9;
                                 }
