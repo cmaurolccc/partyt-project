@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//wallcrack in the hallway. Attached to the wallcrack game object. Made by Chris.
+//wallcrack in the hallway. Made by Chris.
 
 public class wallcrack : MonoBehaviour
 {
@@ -12,7 +12,6 @@ public class wallcrack : MonoBehaviour
     public Sprite wallcrack3;
     public Sprite wallcrack4;
     public SpriteRenderer spriteRenderer;
-    // kkey is the kitchen-key object
     public GameObject kkey;
 
     // Start is called before the first frame update
@@ -42,7 +41,6 @@ public class wallcrack : MonoBehaviour
         else if (spriteRenderer.sprite == wallcrack3)
         {
             spriteRenderer.sprite = wallcrack4;
-            //Activates kitchen-key object
             kkey.SetActive(true);
         }
     }

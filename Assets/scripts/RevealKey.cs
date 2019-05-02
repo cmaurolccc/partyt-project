@@ -2,14 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//Reveals the Kitchen Key, which is hidden behind the wall crack. Attached to the kitchen-key game object. Made by Chris.
+//Reveals the Kitchen Key, which is hidden behind the wall crack. Made by Chris.
 
 public class RevealKey : MonoBehaviour
 {
     public GameObject kitchenKey;
+    //calls wallcrack.cs
+    public wallcrack wc;
+    public GameObject wck;
     void Start()
     {
-        //Deactivates kitchen-key object on load, so it can be activated by wallcrack.cs
+        wck = GameObject.Find("wallcrack");
+        wc = wck.GetComponent<wallcrack>();
+        Debug.Log(wc);
         kitchenKey.SetActive(false);
+    }
+
+    //reveals key when wall is completely cracked
+    void Update()
+    {
     }
 }
