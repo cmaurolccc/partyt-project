@@ -71,6 +71,9 @@ public class NewRoom : MonoBehaviour
                                 {
                                   theControllerScript.roomGridArray[9, 1] = 11;
                                 }
+                    {
+                        theControllerScript.roomGridArray[2, 3] = 4;
+                    }
                                 {
                         theControllerScript.roomGridArray[4, 1] = 6;
                                 }
