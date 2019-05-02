@@ -69,13 +69,13 @@ public class NewRoom : MonoBehaviour
                                     theControllerScript.roomGridArray[1, 1] = 9;
                                 }
                                 {
-                                  theControllerScript.roomGridArray[9, 1] = 11;
+                                    theControllerScript.roomGridArray[9, 1] = 11;
                                 }
-                    {
-                        theControllerScript.roomGridArray[2, 3] = 4;
-                    }
                                 {
-                        theControllerScript.roomGridArray[4, 1] = 6;
+                                    theControllerScript.roomGridArray[2, 3] = 4;
+                                }
+                                {
+                                    theControllerScript.roomGridArray[4, 1] = 6;
                                 }
                                 {
                         // THis changes a single room from being locked to unlocked.
