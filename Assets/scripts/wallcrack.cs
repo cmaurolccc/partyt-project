@@ -12,6 +12,7 @@ public class wallcrack : MonoBehaviour
     public Sprite wallcrack3;
     public Sprite wallcrack4;
     public SpriteRenderer spriteRenderer;
+    //kkey is the kitchen key, which gets revealed after the wall is fully broken.
     public GameObject kkey;
 
     // Start is called before the first frame update
