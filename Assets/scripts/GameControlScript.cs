@@ -19,16 +19,16 @@ public class GameControlScript : MonoBehaviour
 
     public string[][] roomNeedsArray = new string[][]
     {
-        new string[2] {"BR1Note",  "LRRapier" },
-        new string[1] {"BR1Key"},
-        new string[1] {"kitchen key"},
-        new string[2] {"cookie dough", "Key-Shaped Cookie Cutter"},
-        new string[1] {"bathroomkey"},
-        new string[1] {"knife"},
-        new string[3] {"LRRapier", "LRGun", "LivingRoomAnimalStatue"},
-        new string[1] {"bathroomkey"},
-        new string[1] {"BR1Key2" },
-        new string[1] {"cookie dough" },
+        new string[2] {"BR1Note",  "LRRapier" }, //bedroom 1
+        new string[1] {"BR1Key"}, //hallway part 1
+        new string[1] {"kitchen key"}, //hallway part 2
+        new string[2] {"cookie dough", "Key-Shaped Cookie Cutter"}, //basement
+        new string[1] {"bathroomkey"}, //bathroom
+        new string[1] {"knife"}, //living room
+        new string[3] {"LRRapier", "LRGun", "LivingRoomAnimalStatue"}, //living room
+        new string[1] {"bathroomkey"}, //bedroom 2
+        new string[1] {"BR1Key2" }, //outside
+        new string[1] {"cookie dough" }, //shed
         new string[1] {""},
         new string[1] {""}
     };
