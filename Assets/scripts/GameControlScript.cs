@@ -29,7 +29,7 @@ public class GameControlScript : MonoBehaviour
         new string[1] {"bathroomkey"}, //bedroom 2
         new string[1] {"BR1Key2" }, //outside
         new string[1] {"cookie dough" }, //shed
-        new string[1] {""},
+        new string[1] {""}, //these two are just the help screen and the end screen they don't mean anything
         new string[1] {""}
     };
 
