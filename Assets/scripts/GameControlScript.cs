@@ -22,7 +22,7 @@ public class GameControlScript : MonoBehaviour
         new string[2] {"BR1Note",  "LRRapier" },
         new string[1] {"BR1Key"},
         new string[1] {"kitchen key"},
-        new string[1] {"cookie dough"},
+        new string[2] {"cookie dough", "Key-Shaped Cookie Cutter"},
         new string[1] {"bathroomkey"},
         new string[1] {"knife"},
         new string[3] {"LRRapier", "LRGun", "LivingRoomAnimalStatue"},
