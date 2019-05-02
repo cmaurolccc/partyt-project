@@ -21,8 +21,8 @@ public class GameControlScript : MonoBehaviour
     {
         new string[2] {"BR1Note",  "LRRapier" },
         new string[1] {"BR1Key"},
-        new string[2] {"red key", "creepy painting"},
-        new string[2] {"cookie dough", "kitchen key"},
+        new string[1] {"kitchen key"},
+        new string[2] {"cookie dough", "basement key"},
         new string[1] {"bathroomkey"},
         new string[1] {"knife"},
         new string[3] {"LRRapier", "LRGun", "LivingRoomAnimalStatue"},
@@ -38,7 +38,7 @@ public class GameControlScript : MonoBehaviour
        {
             {0,12,0,2 }, //room 1 bedroom
             {3,0,1,8 }, //room 2 hallwayp1
-            {7,2,5,4 }, //room 3 hallwayp2
+            {7,2,5,0 }, //room 3 hallwayp2
             {0,0,3,0 }, //room 4 kitchen
             {0,0,0,3 }, //room 5 basement
             {5,0,0,0 }, //room 6 bathroom
