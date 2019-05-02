@@ -12,7 +12,7 @@ public class wallcrack : MonoBehaviour
     public Sprite wallcrack3;
     public Sprite wallcrack4;
     public SpriteRenderer spriteRenderer;
-    public bool wallCracked = false;
+    public GameObject kkey;
 
     // Start is called before the first frame update
     void Start()
@@ -40,8 +40,9 @@ public class wallcrack : MonoBehaviour
         }
         else if (spriteRenderer.sprite == wallcrack3)
         {
-            wallCracked = true;
             spriteRenderer.sprite = wallcrack4;
+            Debug.Log(kkey);
+            kkey.SetActive(true);
         }
     }
 }

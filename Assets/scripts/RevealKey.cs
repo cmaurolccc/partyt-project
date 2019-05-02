@@ -9,19 +9,17 @@ public class RevealKey : MonoBehaviour
     public GameObject kitchenKey;
     //calls wallcrack.cs
     public wallcrack wc;
+    public GameObject wck;
     void Start()
     {
-        GameObject wck = GameObject.Find("wallcrack");
+        wck = GameObject.Find("wallcrack");
         wc = wck.GetComponent<wallcrack>();
+        Debug.Log(wc);
         kitchenKey.SetActive(false);
     }
 
     //reveals key when wall is completely cracked
     void Update()
     {
-        if (wc.wallCracked == true)
-        {
-            kitchenKey.SetActive(true);
-        }
     }
 }
