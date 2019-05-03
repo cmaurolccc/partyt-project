@@ -1102,7 +1102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee065d078a8a8b547a669945510c8b13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kitchenKey: {fileID: 0}
+  kitchenKey: {fileID: 1301743846}
 --- !u!212 &1301743849
 SpriteRenderer:
   m_ObjectHideFlags: 0
